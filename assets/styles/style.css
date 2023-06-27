@@ -158,6 +158,12 @@ a.dropdown-item:hover{
     color: black;
 }
 
+.main-link::after{
+    content: ".";
+    font-size: 25px;
+    color: deeppink;
+}
+
 .replay{
     margin-left: 136px;
 }
