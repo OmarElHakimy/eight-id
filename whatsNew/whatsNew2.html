@@ -36,29 +36,29 @@
         <div class="sticky-top">
             <nav class="navbar bg-black p-0">
                 <div class="container-fluid py-3 px-4 d-flex justify-content-between">
-                    <div>
-                        <a class="navbar-brand" href="../Home/home.html">
-                            <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                    <div class="col-2">
+                        <a class="navbar-brand" href="#">
+                          <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
                         </a>
                     </div>
-                    <div class="d-flex align-items-center">
-                        <div>
+                    <div class="col-10 p-0">
+                      <ul class="nav justify-content-end align-items-center">
+                        <li class="nav-item">
                             <a href="../letsTalk/letsTalk.html" class="linkActivate text-decoration-none text-light">Let's Talk</a>
-                        </div>
-                        <div class="mx-4 py-0" style="border-right: 1px solid white; border-left: 1px solid white;">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">FR</a>
-                                </li>
-                                <li class="nav-item">-</li>
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">EN</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
-                            <i class="bi bi-list fs-2 text-light"></i>
-                        </button>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 ms-2 text-light" style="border-left: 1px solid white;">FR</a>
+                        </li>
+                        <li class="nav-item" style="color: deeppink;">-</li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 me-2 text-light" style="border-right: 1px solid white;">EN</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
+                                <i class="bi bi-list fs-2 text-light"></i>
+                            </button>
+                        </li>
+                      </ul>
                     </div>
                     <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu" aria-labelledby="menuLabel">
                         <div class="offcanvas-header">
@@ -145,15 +145,15 @@
                                         <p class="rounded-pill px-4 py-0 my-2 text-light text-center" style="background-color: deeppink">6 min</p>
                                     </div>
                                     <div class="d-flex justify-content-between">
-                                        <div class="d-flex mx-3">
+                                        <div class="d-flex mx-auto mx-lg-3">
                                             <i class="bi bi-eye-fill me-1" style="color: deeppink;"></i>
                                             <p class="text-light ms-1 m-0">1700</p>
                                         </div>
-                                        <div class="d-flex mx-3">
+                                        <div class="d-flex mx-auto mx-lg-3">
                                             <i class="bi bi-chat-left-text-fill me-1" style="color: deeppink;"></i>
                                             <p class="text-light ms-1 m-0">170</p>
                                         </div>
-                                        <div class="d-flex mx-3 me-0">
+                                        <div class="d-flex mx-auto mx-lg-3 me-0">
                                             <i class="bi bi-suit-heart-fill me-1" style="color: deeppink;"></i>
                                             <p class="text-light ms-1 m-0">170</p>
                                         </div>
@@ -236,7 +236,7 @@
                             </div>
                             <h6 style="color: deeppink;">AUTHOR</h6>
                         </div>
-                        <div class="my-4 ms-5">
+                        <div class="my-4 m-0 ms-lg-5">
                             <div class="flex-column flex-lg-row d-flex">
                                 <div class="me-2">
                                     <img alt="Jhon Doe Profil Image" src="../assets/images/profil.jpg" style="width:80px; height:80px;"/>
@@ -257,7 +257,7 @@
                             </div>
                             <h6 style="color: deeppink;">Comments (3)</h6>
                         </div>
-                        <div class="my-4 ms-5">
+                        <div class="my-4 m-0 ms-lg-5">
                             <div class="flex-column flex-lg-row d-flex">
                                 <div class="me-2">
                                     <img alt="Robert de niro Profil Image" src="../assets/images/profile2.jpg" style="width:80px; height:80px;"/>
@@ -298,7 +298,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="my-4 ms-5">
+                        <div class="my-4 m-0 ms-lg-5">
                             <div class="flex-column flex-lg-row d-flex">
                                 <div class="me-2">
                                     <img alt="Sean Connery Profil Image" src="../assets/images/profil4.jpg" style="width:80px; height:80px;"/>
@@ -326,13 +326,13 @@
                             </div>
                             <h6 style="color: deeppink;">Leave a Replay</h6>
                         </div>
-                        <div class="my-4 ms-5">
-                            <div class="d-flex">
+                        <div class="my-4 m-0 ms-lg-5">
+                            <div class="flex-column flex-lg-row d-flex">
                                 <div class="me-2">
                                     <img alt="Author Image" src="../assets/images/profil.jpg" style="width:80px; height:80px;"/>
                                 </div>
                                 <div class="bg-light bg-opacity-75 p-3 text-dark w-100">
-                                    <div class="d-flex justify-content-between mx-2">
+                                    <div class="flex-column flex-lg-row d-flex justify-content-between mx-2">
                                         <p class="text-dark">your adress email is not gonna be published</p>
                                         <p class="requireLabel" style="color: deeppink;">Required fields</p>
                                     </div>
@@ -351,7 +351,7 @@
                                             <label style="color: deeppink" for="email" class="requireLabel">Email</label>
                                             <input type="text" class="form-control rounded-0 text-black" id="email" name="email">
                                         </div>
-                                        <div class="d-flex justify-content-end mx-2">
+                                        <div class="d-flex justify-content-center justify-content-lg-end mx-2">
                                             <button type="submit" class="btn p-0 rounded-0 linkActivate text-light fw-bold">Leave Comment</button>
                                         </div>
                                     </form>

@@ -35,6 +35,11 @@
     background-size: cover;
 }
 
+.panel{
+    width: 40%; 
+    height: 60%
+}
+
 .cover{
     position: relative;
 }
@@ -57,6 +62,46 @@
 
 .subNav{
     width: 30%;
+}
+
+.main-image{
+    position: relative; 
+    width:400px; 
+    height:400px;
+}
+.caption-image{
+    position: absolute; 
+    top: 20%; 
+    left:0; 
+    width:45%
+}
+
+.cover{
+    position:relative;
+}
+.sub-cover{
+    position:absolute; 
+    bottom:0; 
+    width:100%
+}
+
+.cards{
+    width: 75%
+}
+
+.list{
+    position: relative
+}
+.listSelect{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listLabel{
+    position: absolute; 
+    right:0; 
+    top:0; 
+    right: 2%;
 }
 
 .activate{
@@ -207,6 +252,10 @@ a.dropdown-item:hover{
     .subNav{
         width:50%
     }
+    .panel{
+        width: 80%;
+        height: 80%
+    }
 }
 @media only screen and (max-width: 770px) {
     .cedric{
@@ -226,5 +275,37 @@ a.dropdown-item:hover{
     }
     .replay{
         margin-left: 40px;
+    }
+    .main-image{
+        position: unset;
+        width:200px;
+        height: 200px
+    }
+    .caption-image{
+        position:unset;
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cards{
+        width: 100%
+    }
+
+    .list{
+        position: unset
+    }
+    .listSelect{
+        width: 100%;
+    }
+    .listLabel{
+        position: unset; 
+    }
+
+    .cover{
+        position: unset;
+    }
+    .sub-cover{
+        position: unset;
     }
 }

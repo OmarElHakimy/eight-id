@@ -33,29 +33,29 @@
         <div class="sticky-top">
             <nav class="navbar bg-black p-0">
                 <div class="container-fluid py-3 px-4 d-flex justify-content-between">
-                    <div>
-                        <a class="navbar-brand" href="../Home/home.html">
-                            <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                    <div class="col-2">
+                        <a class="navbar-brand" href="#">
+                          <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
                         </a>
                     </div>
-                    <div class="d-flex align-items-center">
-                        <div>
+                    <div class="col-10 p-0">
+                      <ul class="nav justify-content-end align-items-center">
+                        <li class="nav-item">
                             <a href="../letsTalk/letsTalk.html" class="linkActivate text-decoration-none text-light">Let's Talk</a>
-                        </div>
-                        <div class="mx-4 py-0" style="border-right: 1px solid white; border-left: 1px solid white;">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">FR</a>
-                                </li>
-                                <li class="nav-item">-</li>
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">EN</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
-                            <i class="bi bi-list fs-2 text-light"></i>
-                        </button>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 ms-2 text-light" style="border-left: 1px solid white;">FR</a>
+                        </li>
+                        <li class="nav-item" style="color: deeppink;">-</li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 me-2 text-light" style="border-right: 1px solid white;">EN</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
+                                <i class="bi bi-list fs-2 text-light"></i>
+                            </button>
+                        </li>
+                      </ul>
                     </div>
                     <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu" aria-labelledby="menuLabel">
                         <div class="offcanvas-header">
@@ -135,7 +135,7 @@
                 <h2 class="fw-bold">SECURITY</h2>
                 <h3 class="ms-5 fs-5 listStyled"> A Tailor-mode Protection</h3>
                 <div class="row my-4">
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4 order-2 order-lg-1">
                         <div class="bg-black my-2 p-2 h-100 text-light">
                             <h3>THE MISSION</h3>
                             <ul class="h-75 align-items-center" style="list-style-type: none;">
@@ -144,14 +144,14 @@
                                 <li class="fw-bold text-light my-4">Presentation Tests</li>
                                 <li class="fw-bold text-light my-4">Testing</li>
                             </ul>
-                            <span class="display-6 text-light mt-auto float-end">--------</span>
+                            <span class="d-none d-lg-block display-6 text-light mt-auto float-end">--------</span>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-12 col-lg-8 order-1 order-lg-2">
                         <img alt="Page Cover" src="../assets/images/img2.jpg" class="w-100 h-100 my-2 "/>
                     </div>
-                    <div class="col-12 row my-4">
-                        <div class="col-4 ">
+                    <div class="col-12 row my-4 order-3">
+                        <div class="col-12 col-lg-4 mx-auto">
                             <div class="bg-black my-2 p-2">
                                 <span class="display-6 text-light mt-auto ">--------</span>
                                 <ul class="align-items-center" style="list-style-type: none;">
@@ -162,7 +162,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-4 ">
+                        <div class="col-12 col-lg-4">
                             <div class="bg-black my-2 p-2">
                                 <span class="display-6 text-light mt-auto ">--------</span>
                                 <ul class="align-items-center" style="list-style-type: none;">
@@ -173,7 +173,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-4 ">
+                        <div class="col-12 col-lg-4">
                             <div class="bg-black my-2 p-2">
                                 <span class="display-6 text-light mt-auto ">--------</span>
                                 <ul class="align-items-center" style="list-style-type: none;">
@@ -185,8 +185,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 row my-4">
-                        <div class="col-4 ">
+                    <div class="col-12 row my-4 order-4">
+                        <div class="col-12 col-lg-4">
                             <div class="bg-black my-2 p-4">
                                 <ul class="align-items-center" style="list-style-type: none;">
                                     <li class="fw-bold text-light my-4">Audit & Assessements</li>
@@ -196,13 +196,13 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-lg-4">
                             <div class="w-75 h-100 mx-auto">
                                 <img alt="seconde image" src="../assets/images/img2.jpg" class="w-100 h-100"/>
                             </div>
                             
                         </div>
-                        <div class="col-4 ">
+                        <div class="col-12 col-lg-4">
                             <div class="bg-black my-2 p-4">
                                 <ul class="align-items-center" style="list-style-type: none;">
                                     <li class="fw-bold text-light my-4">Audit & Assessements</li>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 order-5">
                         <div class="bg-black my-2 p-3">
                             <p class="text-light fw-bold">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

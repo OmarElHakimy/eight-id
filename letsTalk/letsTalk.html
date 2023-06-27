@@ -33,29 +33,29 @@
         <div class="sticky-top">
             <nav class="navbar bg-black p-0">
                 <div class="container-fluid py-3 px-4 d-flex justify-content-between">
-                    <div>
-                        <a class="navbar-brand" href="../Home/home.html">
-                            <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                    <div class="col-2">
+                        <a class="navbar-brand" href="#">
+                          <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
                         </a>
                     </div>
-                    <div class="d-flex align-items-center">
-                        <div>
+                    <div class="col-10 p-0">
+                      <ul class="nav justify-content-end align-items-center">
+                        <li class="nav-item">
                             <a href="../letsTalk/letsTalk.html" class="linkActivate text-decoration-none text-light">Let's Talk</a>
-                        </div>
-                        <div class="mx-4 py-0" style="border-right: 1px solid white; border-left: 1px solid white;">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">FR</a>
-                                </li>
-                                <li class="nav-item">-</li>
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">EN</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
-                            <i class="bi bi-list fs-2 text-light"></i>
-                        </button>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 ms-2 text-light" style="border-left: 1px solid white;">FR</a>
+                        </li>
+                        <li class="nav-item" style="color: deeppink;">-</li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 me-2 text-light" style="border-right: 1px solid white;">EN</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
+                                <i class="bi bi-list fs-2 text-light"></i>
+                            </button>
+                        </li>
+                      </ul>
                     </div>
                     <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu" aria-labelledby="menuLabel">
                         <div class="offcanvas-header">
@@ -136,8 +136,8 @@
                     <form>
                         
                         <div class="row p-4">
-                            <div class="col-12" style="position: relative;">
-                                <div class="mx-auto w-25">
+                            <div class="col-12 list">
+                                <div class="listSelect">
                                     <select class="form-select rounded-pill" style="background-color: deeppink; letter-spacing: 1px;" aria-label="Default select example">
                                         <option selected>Choose Your Agency</option>
                                         <option value="1">One</option>
@@ -145,11 +145,11 @@
                                         <option value="3">Three</option>
                                     </select>
                                 </div>    
-                                <div style="position: absolute; right:0; top:0; right: 2%;">
+                                <div class="listLabel my-2 my-lg-0">
                                     <p class="requireLabel" style="color: deeppink;">Required Fields</p>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="my-3 mx-2">
                                     <label style="color: deeppink; letter-spacing:1px" for="civility" class="requireLabel my-1">Civility</label>
                                     <input type="text" class="form-control rounded-0 text-black" id="civility" name="civility">
@@ -158,37 +158,37 @@
                             <div class="col-6">
 
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="my-3 mx-2">
                                     <label style="color: deeppink; letter-spacing:1px" for="lastName" class="requireLabel my-1">Last Name</label>
                                     <input type="text" class="form-control rounded-0 text-black" id="lastName" name="lastName">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="my-3 mx-2">
                                     <label style="color: deeppink; letter-spacing:1px" for="firstName" class="requireLabel my-1">First Name</label>
                                     <input type="text" class="form-control rounded-0 text-black" id="firstName" name="firstName">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="my-3 mx-2">
                                     <label style="color: deeppink; letter-spacing:1px" for="email" class="requireLabel my-1"> Email</label>
                                     <input type="email" class="form-control rounded-0 text-black" id="email" name="email">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="my-3 mx-2">
                                     <label style="color: deeppink; letter-spacing:1px" for="phone" class="requireLabel my-1">Phone</label>
                                     <input type="text" class="form-control rounded-0 text-black" id="phone" name="phone">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="my-3 mx-2">
                                     <label style="color: deeppink; letter-spacing:1px" for="company" class="my-1">Name Of the Company</label>
                                     <input type="text" class="form-control rounded-0 text-black" id="company" name="company">
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="my-3 mx-2">
                                     <label style="color: deeppink; letter-spacing:1px" for="webSite" class="my-1">Web Site</label>
                                     <input type="text" class="form-control rounded-0 text-black" id="webSite" name="webSite">
@@ -203,14 +203,14 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="d-flex justify-content-between my-3 mx-2">
+                                <div class="flex-column flex-md-row d-flex justify-content-between my-3 mx-2">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="terms" name="terms">
                                         <label class="form-check-label text-dark" for="terms">
                                           I agree with the privacy policies, Terms of use
                                         </label>
                                     </div>
-                                    <button class="rounded-pill px-4 py-2 text-light border-0"  style="background-color: deeppink;">SUBMIT</button>
+                                    <button class="rounded-pill px-4 py-2 my-2 my-lg-0 text-light border-0"  style="background-color: deeppink;">SUBMIT</button>
                                 </div>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                 </div>
                 <div class="m-4">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="my-2" style="position: relative;">
                                 <img alt="Agence Swiss Images" src="../assets/images/img1.jpg" class="w-100" style="position: relative;"/>
                                 <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="position: absolute; width:150px; top:2%; left:2%"/>
@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="my-2" style="position: relative;">
                                 <img alt="Agence Maroc Image" src="../assets/images/img2.jpg" class="w-100" style="position: relative;"/>
                                 <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="position: absolute; width:150px; top:2%; left:2%"/>
@@ -250,7 +250,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="my-2" style="position: relative;">
                                 <img alt="Agence France Image" src="../assets/images/img3.jpg" class="w-100" style="position: relative;"/>
                                 <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="position: absolute; width:150px; top:2%; left:2%"/>
@@ -266,7 +266,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="my-2" style="position: relative;">
                                 <img alt="Agence Espagne Image" src="../assets/images/img1.jpg" class="w-100" style="position: relative;"/>
                                 <img src="../assets/images/logo.png" style="position: absolute; width:150px; top:2%; left:2%"/>

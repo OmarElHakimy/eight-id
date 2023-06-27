@@ -34,29 +34,29 @@
         <div class="sticky-top">
             <nav class="navbar bg-black p-0">
                 <div class="container-fluid py-3 px-4 d-flex justify-content-between">
-                    <div>
-                        <a class="navbar-brand" href="../Home/home.html">
-                            <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
+                    <div class="col-2">
+                        <a class="navbar-brand" href="#">
+                          <img alt="Eight-Id Logo" src="../assets/images/logo.png" style="width: 100%"/>
                         </a>
                     </div>
-                    <div class="d-flex align-items-center">
-                        <div>
+                    <div class="col-10 p-0">
+                      <ul class="nav justify-content-end align-items-center">
+                        <li class="nav-item">
                             <a href="../letsTalk/letsTalk.html" class="linkActivate text-decoration-none text-light">Let's Talk</a>
-                        </div>
-                        <div class="mx-4 py-0" style="border-right: 1px solid white; border-left: 1px solid white;">
-                            <ul class="nav justify-content-end">
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">FR</a>
-                                </li>
-                                <li class="nav-item">-</li>
-                                <li class="nav-item">
-                                <a class="nav-link text-light py-0">EN</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
-                            <i class="bi bi-list fs-2 text-light"></i>
-                        </button>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 ms-2 text-light" style="border-left: 1px solid white;">FR</a>
+                        </li>
+                        <li class="nav-item" style="color: deeppink;">-</li>
+                        <li class="nav-item">
+                          <a class="nav-link py-0 px-2 me-2 text-light" style="border-right: 1px solid white;">EN</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="navbar-toggler border-0 p-0 float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="offcanvasNavbar">
+                                <i class="bi bi-list fs-2 text-light"></i>
+                            </button>
+                        </li>
+                      </ul>
                     </div>
                     <div class="offcanvas offcanvas-top bg-black h-100" tabindex="-1" id="menu" aria-labelledby="menuLabel">
                         <div class="offcanvas-header">
@@ -132,14 +132,14 @@
         </div>
         <main class="container">
             <div class="mt-5 mb-4 text-light">
-                <div class="d-flex justify-content-between">
-                    <div>
+                <div class="flex-column flex-md-row d-flex justify-content-between">
+                    <div class="order-md-1 order-2">
                         <h2 class="fw-bold">BACK DEVELOPER</h2>
                         <h3 class="ms-5 fs-5 listStyled"> Valencia, SPAIN</h3>
                     </div>
-                    <div>
+                    <div class="order-md-2 order-1 my-2 my-md-0">
                         <button class="btn btn-link rounded-pill text-decoration-none px-4 py-2 my-2 text-light text-center" style="background-color: deeppink">Apply Now</button>
-                        <p class="text-light text-center">July 16, 2022</p>
+                        <p class="text-light text-start text-md-center ms-2 ms-md-0">July 16, 2022</p>
                     </div>
                 </div>
                 <div class="my-4 mx-5">
@@ -262,9 +262,9 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <div class="my-3 mx-2">
+                                        <div class="row my-3 mx-2">
                                             <label style="color: deeppink" for="name" class="requireLabel">Download</label>
-                                            <div class="w-50 my-4 d-lg-flex">
+                                            <div class="col-12 col-md-6 my-4 d-lg-flex">
                                                 <div>
                                                     <label class="text-dark">Resume / CV</label>
                                                 </div>
@@ -272,7 +272,8 @@
                                                     <input type="file" class="form-control form-control-sm rounded-pill"/>
                                                 </div>
                                             </div>
-                                            <div class="w-50 my-4 d-lg-flex">
+                                            <div class="col-12"></div>
+                                            <div class="col-12 col-md-6 my-4 d-lg-flex">
                                                 <div>
                                                     <label class="text-dark">Cover Letter</label>
                                                 </div>
